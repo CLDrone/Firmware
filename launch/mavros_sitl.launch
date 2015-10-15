@@ -4,8 +4,8 @@
 
 <arg name="ns" default="/" />
 <group ns="$(arg ns)">
-	<arg name="fcu_url" default="udp://localhost:14560@localhost:14565" />
-	<arg name="gcs_url" default="" />
+	<arg name="fcu_url" default="udp://localhost:14560@localhost:14565"/>
+	<arg name="gcs_url" default="udp://localhost:14567@localhost:14566" />
 	<arg name="tgt_system" default="1" />
 	<arg name="tgt_component" default="50" />
 
